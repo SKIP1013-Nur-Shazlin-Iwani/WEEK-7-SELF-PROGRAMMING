@@ -1,0 +1,11 @@
+This is a guessing number system.
+Enter a number between 1-10: 
+5
+Sorry the number is high
+Enter a number between 1-10: 
+8
+Sorry the number is high
+Enter a number between 1-10: 
+4
+Sorry the number is high
+Enter a number between 1-10:
