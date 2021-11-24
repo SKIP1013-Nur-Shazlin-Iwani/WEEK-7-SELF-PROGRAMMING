@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class RandomNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number = (int)(Math.random() * 11);
+		int j, i = 1;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("This is a guessing number system.");
+		
+		while (i != number) {
+		System.out.println("Enter a number between 1-10: " );
+		j=input.nextInt();
+		if (j == number) {
+			System.out.println("Congrats the number is same!!");
+		} else if (j <= number) {
+			System.out.println("Sorry the number is low");
+		} else {
+			System.out.println("Sorry the number is high");
+		}
+		}
+	}
+}
