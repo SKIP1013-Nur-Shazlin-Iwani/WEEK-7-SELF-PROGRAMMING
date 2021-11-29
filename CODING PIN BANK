@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class PinNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int pin = 123456;
+		int number;
+		
+		System.out.println("Welcome to CIMB Bank.");
+		System.out.print("Enter your pin: ");
+		number=input.nextInt();
+		
+		while (number != pin)
+		{
+			System.out.println("\nIncorrect pin. Try again.");
+			System.out.print("Enter your pin: ");
+			number=input.nextInt();
+		}
+		System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
+
+	}
+
+}
